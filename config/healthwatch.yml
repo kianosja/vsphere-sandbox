@@ -48,7 +48,6 @@ network-properties:
 resource-config:
   healthwatch-forwarder:
     max_in_flight: 1
-    additional_networks: []
     additional_vm_extensions: []
     instance_type:
       id: automatic
@@ -63,10 +62,8 @@ resource-config:
       vif_type: null
     persistent_disk:
       size_mb: automatic
-    swap_as_percent_of_memory_size: automatic
   mysql:
     max_in_flight: 1
-    additional_networks: []
     additional_vm_extensions: []
     instance_type:
       id: automatic
@@ -81,10 +78,8 @@ resource-config:
       vif_type: null
     persistent_disk:
       size_mb: automatic
-    swap_as_percent_of_memory_size: automatic
   redis:
     max_in_flight: 1
-    additional_networks: []
     additional_vm_extensions: []
     instance_type:
       id: automatic
@@ -99,7 +94,6 @@ resource-config:
       vif_type: null
     persistent_disk:
       size_mb: automatic
-    swap_as_percent_of_memory_size: automatic
 errand-config:
   delete-space:
     pre-delete-state: true
